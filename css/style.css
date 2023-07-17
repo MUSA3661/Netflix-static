@@ -1,0 +1,202 @@
+
+body,html{
+    height: 100%;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(34, 34,34);
+    
+}
+.hero-image{
+    background: linear-gradient(rgb(0,0,0,0.5),rgb(0,0,0,0.5)),url(../image/arkaplan.jpg);
+    height: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+.hero-text{
+    text-align: center;
+    color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.hero-text h1{
+    font-size: 5vw;
+    font-weight: bold;
+}
+.input-group input{
+    padding: 20px;
+}
+/* ekranlar */
+.arkaplan{
+    background-color: black;
+    color: white;
+
+}
+.arkaplan .row{
+    width: 75%;
+    margin: auto;
+}
+.arkaplan h1{
+    font-weight: bold;
+}
+/* accordion */
+.accordion{
+    background-color: rgb(34, 34,34);
+    color: white;
+    padding: 18px;
+    width: 100%;
+    text-align: left;
+    border: none;
+    font-size: 20px;
+    transition: .4s;
+    
+}
+.accordion::after{
+    content: "\002b";
+    float: right;
+    font-size: 20px;
+}
+.active:after{
+    content: "\02E3";
+    font-size: 20px;
+}
+.panel{
+    background-color: rgb(34, 34,34);
+    color: white;
+    padding: 0 18px;
+    display: none;
+}
+
+footer .nav-link, footer p{
+    color: gray;
+}
+
+footer .nav-link:hover{
+    color: gray;
+    text-decoration: underline;
+
+}
+@media screen and (max-width:992px){
+    .text{
+        text-align: center;
+    }
+}
+
+/* browse */
+.panell{
+    width: 60%;
+    height: 60%;
+    margin: auto;
+    background-color: rgb(23, 23, 23);
+   
+}
+.buton button{
+    border: 2px solid black;
+    background-color: rgb(34, 34, 34);
+    color: rgb(86, 84, 84);
+    padding: 3px 90px;
+    width: 50%;
+}
+.buton button:hover{
+    border: 2px solid white;
+    color: white;
+
+}
+.b-card:hover{
+    border: 4px solid white;
+}
+.card-text h5{
+    color: rgb(86, 84, 84);
+}
+
+/* browse-index */
+.hero-image2{
+   background: linear-gradient(rgb(0,0,0,0.5) ,rgb(0,0,0,0.5)),url(../image/arkaplan.jpg);
+   background-repeat: no-repeat;
+   background-position: center;
+   background-size: cover;
+   position: relative;
+}
+.nav-left a{
+    color: rgb(121, 107, 107);
+}
+.nav-left a:hover{
+    color: white;
+}
+
+.bi-dropdown{
+    margin-right: 140px;
+}
+.hero-text2{
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.hero-text2 h1{
+    font-weight: bold;
+}
+.hero-text2 .btn-gruop button{
+    padding: 3px 10px;
+    background-color: rgba(110,118,131,255);
+    color: white;
+}
+.btn-gruop button:hover{
+    opacity: 0.8;
+}
+/* browse-index content */
+.panel2{
+    width: 75%;
+    margin: auto;
+    color: white;
+}
+.bi-footer{
+    width: 80%;
+}
+
+
+.hesap-icon::after{
+    content: "+";
+    float: right;
+    font-weight: 550;
+}
+
+/* login */
+.hero-image3{
+    height: 170vh;
+    background:linear-gradient(rgb(0,0,0,0.5),rgb(0,0,0,0.5)),url(../image/arkaplan.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+.login{
+    background-color: black;
+    width: 35%;
+    height: 440px;
+    padding: 40px;
+    position: absolute;
+    opacity: 0.8;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.login-ic{
+    width: 35%;
+    height: 440px;
+    padding: 40px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.input-bg{
+    background-color: rgb(34, 34, 34) ;
+}
+.login-footer{
+    opacity: 0.8;
+}
